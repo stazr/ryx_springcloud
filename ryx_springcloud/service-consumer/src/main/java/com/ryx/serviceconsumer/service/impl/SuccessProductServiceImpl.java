@@ -122,7 +122,7 @@ public class SuccessProductServiceImpl implements SuccessProductService {
 		successProduct.setName(name);
 		successProduct.setId(new Random().nextInt(100));
 		//不同的数据源
-		int i = 1/0;
+		//int i = 1/0;
 		this.successProductMapper.insert(successProduct);
 	}
 
