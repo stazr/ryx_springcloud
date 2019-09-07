@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SsmWeb:war">
+    <output-path>$PROJECT_DIR$/SsmWeb/target</output-path>
+    <root id="archive" name="SsmWeb.war">
+      <element id="artifact" artifact-name="SsmWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

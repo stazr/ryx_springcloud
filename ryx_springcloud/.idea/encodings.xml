@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../fescar-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../fescar-demo/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../fescar-demo/fescar-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../fescar-demo/server-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../fescar-demo/server-b" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SsmWeb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fescar-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/distribution" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/dubbo-alibaba" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/rm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/rm-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-0.4.2/tm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-prodect" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-server" charset="UTF-8" />
+  </component>
+</project>

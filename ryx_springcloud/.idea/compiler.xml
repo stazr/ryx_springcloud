@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fescar-config" />
+        <module name="service-consumer" />
+        <module name="service-discovery" />
+        <module name="service-interface" />
+        <module name="service-prodect" />
+        <module name="service-user" />
+        <module name="SsmWeb" />
+        <module name="zuul-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.8" />
+      <module name="fescar-all" target="1.8" />
+      <module name="fescar-common" target="1.8" />
+      <module name="fescar-config" target="1.8" />
+      <module name="fescar-config (1) (com.alibaba.fescar)" target="1.8" />
+      <module name="fescar-config (1) (com.hand)" target="1.8" />
+      <module name="fescar-core" target="1.8" />
+      <module name="fescar-demo" target="1.8" />
+      <module name="fescar-discovery" target="1.8" />
+      <module name="fescar-distribution" target="1.8" />
+      <module name="fescar-dubbo" target="1.8" />
+      <module name="fescar-dubbo-alibaba" target="1.8" />
+      <module name="fescar-rm" target="1.8" />
+      <module name="fescar-rm-datasource" target="1.8" />
+      <module name="fescar-server" target="1.8" />
+      <module name="fescar-spring" target="1.8" />
+      <module name="fescar-tcc" target="1.8" />
+      <module name="fescar-test" target="1.8" />
+      <module name="fescar-tm" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="server-a" target="1.8" />
+      <module name="server-b" target="1.8" />
+      <module name="service-consumer" target="1.8" />
+      <module name="service-discovery" target="1.8" />
+      <module name="service-interface" target="1.8" />
+      <module name="service-prodect" target="1.8" />
+      <module name="service-user" target="1.8" />
+      <module name="SsmWeb" target="1.7" />
+      <module name="zuul-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

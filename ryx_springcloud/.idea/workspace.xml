@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SsmWeb:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffb7e20f-621c-4e72-8220-ba73ea109194" name="Default" comment="提交" />
+    <ignored path="$PROJECT_DIR$/parent/target/" />
+    <ignored path="$PROJECT_DIR$/service-discovery/target/" />
+    <ignored path="$PROJECT_DIR$/service-prodect/target/" />
+    <ignored path="$PROJECT_DIR$/service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/service-interface/target/" />
+    <ignored path="$PROJECT_DIR$/SsmWeb/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/service-user/target/" />
+    <ignored path="$PROJECT_DIR$/fescar-config/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/server/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/core/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/rm/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/config/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/discovery/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/distribution/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/dubbo-alibaba/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/common/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/spring/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/test/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/tm/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/tcc/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/rm-datasource/target/" />
+    <ignored path="$PROJECT_DIR$/seata-0.4.2/dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/../fescar-demo/server-b/target/" />
+    <ignored path="$PROJECT_DIR$/../fescar-demo/server-a/target/" />
+    <ignored path="$PROJECT_DIR$/../fescar-demo/fescar-config/target/" />
+    <ignored path="$PROJECT_DIR$/../fescar-demo/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/../fescar-demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SuccessProductServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/service/impl/SuccessProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lomb</find>
+      <find>buddy</find>
+      <find>org.mybatis.spring.boot</find>
+      <find>base_column_list</find>
+      <find>log</find>
+      <find>com.hengtn.jiang.entity.pojo.User</find>
+      <find>aspectj</find>
+      <find>hystrix</find>
+      <find>eureka</find>
+      <find>org</find>
+      <find>.set</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/service-consumer" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/ryx/entity/query/BaseParam.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/ryx/entity/query/UserQuery.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/ryx/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/ryx/mapper/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/ryx/service/UserService.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/ryx/ServiceUserApplication.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/ryx/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-user/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/service-user/src/main/java/com/ryx/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SsmWeb/src/main/java/com/ryx/config/Config.java" />
+        <option value="$PROJECT_DIR$/SsmWeb/src/main/java/com/ryx/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/ryx/zuulserver/ZuulServerApplication.java" />
+        <option value="$USER_HOME$/EasyJava/src/config.properties" />
+        <option value="$USER_HOME$/EasyJava/src/com/ulewo/easyjava/builder/ReadTable.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/entity/page/SimplePage.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/resources/mapper/SuccessProductMapper.xml" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/mapper/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/entity/query/BaseParam.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/mapper/SuccessProductMapper.java" />
+        <option value="$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarRMRequestFilter.java" />
+        <option value="$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarRestInterceptor.java" />
+        <option value="$PROJECT_DIR$/service-prodect/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/service-prodect/src/main/resources/file.conf" />
+        <option value="$PROJECT_DIR$/fescar-config/pom.xml" />
+        <option value="$PROJECT_DIR$/../fescar-demo/server-b/src/main/resources/registry.conf" />
+        <option value="$PROJECT_DIR$/service-prodect/src/main/resources/registry.conf" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/resources/registry.conf" />
+        <option value="$PROJECT_DIR$/service-interface/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/service-prodect/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/service/RyxProductService.java" />
+        <option value="$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/service/impl/RyxProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/mapper/RyxProductMapper.java" />
+        <option value="$PROJECT_DIR$/service-prodect/src/main/resources/mapper/RyxProductMapper.xml" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/service/SuccessProductService.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/controller/ProductControllerCon.java" />
+        <option value="$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/controller/RyxProductController.java" />
+        <option value="$PROJECT_DIR$/service-interface/src/main/java/com/ryx/serviceinterface/fallback/ProductServiceFallback.java" />
+        <option value="$PROJECT_DIR$/service-interface/src/main/java/com/ryx/serviceinterface/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/service-interface/src/main/java/com/ryx/serviceinterface/pojo/User.java" />
+        <option value="$PROJECT_DIR$/service-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/service/impl/SuccessProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-user/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.5.3/conf/settings--1.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1107" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ryx_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ryx_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ryx_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ryx_springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRepositories" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ryx.serviceinterface.pojo" />
+      <recent name="com.ryx.config" />
+      <recent name="com.ryx.serviceprodect.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service-prodect/src/main/resources" />
+      <recent name="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer" />
+      <recent name="$PROJECT_DIR$/service-consumer/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/mapper" />
+      <recent name="E:\ryx_springcloud\service-user\src\main\java\com\ryx\service\impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.ssmWeb">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ulewo.easyjava.MainApp" />
+      <module name="EasyJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ulewo.easyjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="fescar-common" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hand.fescar.demo.EurekaApplication" />
+    </configuration>
+    <configuration name="FescarConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fescar-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryx.fescarconfig.FescarConfigApplication" />
+    </configuration>
+    <configuration name="ServiceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryx.serviceconsumer.ServiceConsumerApplication" />
+    </configuration>
+    <configuration name="ServiceDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryx.servicediscovery.ServiceDiscoveryApplication" />
+    </configuration>
+    <configuration name="ServiceProdectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-prodect" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryx.serviceprodect.ServiceProdectApplication" />
+    </configuration>
+    <configuration name="ServiceUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryx.ServiceUserApplication" />
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryx.zuulserver.ZuulServerApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ssmWeb" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.9" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SsmWeb:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ryx_springcloud" />
+        <option name="HTTP_PORT" value="8780" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52909" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="52910" />
+        <option name="visualVMId" value="349225244445200" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="52911" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SsmWeb:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceDiscoveryApplication" />
+      <item itemvalue="Spring Boot.ServiceProdectApplication" />
+      <item itemvalue="Spring Boot.ServiceConsumerApplication" />
+      <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Spring Boot.ServiceUserApplication" />
+      <item itemvalue="Tomcat Server.ssmWeb" />
+      <item itemvalue="Spring Boot.FescarConfigApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Application.MainApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffb7e20f-621c-4e72-8220-ba73ea109194" name="Default" comment="" />
+      <created>1548991021942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548991021942</updated>
+      <workItem from="1548991025295" duration="1918000" />
+      <workItem from="1548993007050" duration="14516000" />
+      <workItem from="1549067764192" duration="25326000" />
+      <workItem from="1549152469581" duration="17953000" />
+      <workItem from="1550103738992" duration="278000" />
+      <workItem from="1550104800449" duration="15243000" />
+      <workItem from="1550190495031" duration="27647000" />
+      <workItem from="1550372436260" duration="769000" />
+      <workItem from="1550450871103" duration="1157000" />
+      <workItem from="1550454015193" duration="593000" />
+      <workItem from="1550472034754" duration="2872000" />
+      <workItem from="1550641358308" duration="2844000" />
+      <workItem from="1550822905141" duration="7930000" />
+      <workItem from="1550968144780" duration="2144000" />
+      <workItem from="1551054650017" duration="4953000" />
+      <workItem from="1551140353130" duration="415000" />
+      <workItem from="1561771961095" duration="147000" />
+      <workItem from="1561772299370" duration="1124000" />
+      <workItem from="1561773469148" duration="824000" />
+      <workItem from="1561774328333" duration="2543000" />
+      <workItem from="1561777390032" duration="3405000" />
+      <workItem from="1561791982399" duration="238000" />
+      <workItem from="1561803020400" duration="8990000" />
+      <workItem from="1561858091464" duration="12518000" />
+      <workItem from="1561894912047" duration="2872000" />
+      <workItem from="1561987893143" duration="1532000" />
+      <workItem from="1567816166965" duration="4225000" />
+      <workItem from="1567820598417" duration="226000" />
+      <workItem from="1567820831518" duration="351000" />
+      <workItem from="1567821201413" duration="2491000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1561774679358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561774679358</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交">
+      <created>1561777873772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561777873772</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交">
+      <created>1561778058423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561778058423</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交">
+      <created>1561780572020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561780572020</updated>
+    </task>
+    <task id="LOCAL-00005" summary="提交">
+      <created>1567816262746</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567816262746</updated>
+    </task>
+    <task id="LOCAL-00006" summary="提交">
+      <created>1567816329352</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567816329352</updated>
+    </task>
+    <task id="LOCAL-00007" summary="提交">
+      <created>1567821316575</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567821316575</updated>
+    </task>
+    <task id="LOCAL-00008" summary="提交">
+      <created>1567822131111</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567822131111</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="168044000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1107" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.7060703" side_tool="true" weight="0.4960396" />
+      <window_info anchor="bottom" id="Application Servers" order="19" weight="0.32906404" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.18903089" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="MyBatis Log" order="20" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22376238" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.36732674" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.29392973" weight="0.4940594" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.51757187" visible="true" weight="0.34356436" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22790202" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="Alibaba Cloud Explorer" order="2" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="12" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.32960597" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Key Promoter X" order="5" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3567889" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="E:\ryx_springcloud\springcloud" />
+      <path value="E:/" />
+      <path value="E:/ryx_git" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/springcloud" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="670" height="653" key="Git.Branch.Popup" />
+    <state width="670" height="653" key="Git.Branch.Popup/3840.2400/1920.1200" />
+    <state width="670" height="653" key="Git.Branch.Popup@1920.1200" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/seata-0.4.2/server/src/main/java/com/alibaba/fescar/server/coordinator/Core.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/ServiceProdectApplication.java" />
+    <entry file="file://$PROJECT_DIR$/../fescar-demo/fescar-config/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../fescar-demo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../fescar-demo/server-a/src/main/java/com/hand/fescar/demo/service/TestService.java" />
+    <entry file="file://$PROJECT_DIR$/../fescar-demo/server-b/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../fescar-demo/server-b/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/../fescar-demo/server-b/src/main/resources/file.conf" />
+    <entry file="file://$PROJECT_DIR$/../fescar-demo/server-b/src/main/resources/registry.conf" />
+    <entry file="file://$PROJECT_DIR$/service-discovery/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/registry.conf" />
+    <entry file="jar://$USER_HOME$/.m2/repository--1/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-interface/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/pojo/RyxProduct.java" />
+    <entry file="file://$PROJECT_DIR$/service-interface/src/main/java/com/ryx/serviceinterface/pojo/RyxProduct.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/page/PaginationResult.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/page/SimplePage.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/query/BaseParam.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/query/RyxProductQuery.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/mapper/RyxProductMapper.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/resources/mapper/RyxProductMapper.xml" />
+    <entry file="jar://$USER_HOME$/.m2/repository--1/org/springframework/cloud/spring-cloud-netflix-core/1.4.3.RELEASE/spring-cloud-netflix-core-1.4.3.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/service/RyxProductService.java" />
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/service/SuccessProductService.java" />
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/ServiceConsumerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/service-interface/src/main/java/com/ryx/serviceinterface/fallback/ProductServiceFallback.java" />
+    <entry file="file://$PROJECT_DIR$/service-interface/src/main/java/com/ryx/serviceinterface/service/ProductService.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/service/impl/RyxProductServiceImpl.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository--1/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="532" selection-start-line="532" selection-end-line="532" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="321" column="25" lean-forward="true" selection-start-line="321" selection-start-column="25" selection-end-line="321" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-0.4.2/spring/src/main/java/com/alibaba/fescar/spring/annotation/GlobalTransactional.java" />
+    <entry file="file://$PROJECT_DIR$/service-interface/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/service-interface/src/main/java/com/ryx/serviceinterface/pojo/User.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/controller/RyxProductController.java" />
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/controller/ProductControllerCon.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository--1/com/alibaba/fescar/fescar-spring/0.4.2/fescar-spring-0.4.2.jar!/com/alibaba/fescar/spring/annotation/GlobalTransactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/service-discovery/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/parent/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/fescar-config/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarRMRequestFilter.java" />
+    <entry file="file://$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarRestInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarAutoConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/resources/file.conf" />
+    <entry file="file://$PROJECT_DIR$/service-prodect/src/main/resources/registry.conf" />
+    <entry file="file://$PROJECT_DIR$/service-user/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/service-consumer/src/main/java/com/ryx/serviceconsumer/service/impl/SuccessProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SsmWeb:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>parent</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

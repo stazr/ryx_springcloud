@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ryx.mapper.UserMapper">
+
+	<!--实体映射-->
+	<resultMap id="base_result_map" type="com.ryx.serviceinterface.pojo.User">
+		<!---->
+		<id column="id" property="id"  />
+		<!--登录名称-->
+		<result column="loginName" property="loginName"  />
+		<!--姓名-->
+		<result column="name" property="name"  />
+		<!--头像-->
+		<result column="avatar" property="avatar"  />
+		<!--备注-->
+		<result column="memos" property="memos"  />
+	</resultMap>
+
+
+	<!-- 通用查询结果列-->
+	<sql id="base_column_list">
+		 `id`,`loginName`,`name`,`avatar`,`memos`
+	</sql>
+
+	<sql id="base_condition_filed">
+			<if test="id != null">
+				 and  `id` = #{id}
+			</if>
+			<if test="loginName != null and loginName !=''">
+				 and  `loginName` = #{loginName}
+			</if>
+			<if test="name != null and name !=''">
+				 and  `name` = #{name}
+			</if>
+			<if test="avatar != null and avatar !=''">
+				 and  `avatar` = #{avatar}
+			</if>
+			<if test="memos != null and memos !=''">
+				 and  `memos` = #{memos}
+			</if>
+	</sql>
+	<!-- 通用条件列-->
+	<sql id="base_condition">
+	 <where> <include refid="base_condition_filed" />	 </where>
+	</sql>
+
+	<!-- 通用查询条件列-->
+	<sql id="query_condition">
+	 <where>
+			<include refid="base_condition_filed" />
+			<if test="loginNameFuzzy != null  and loginNameFuzzy != ''">
+				 and  `loginName` like concat('%', #{loginNameFuzzy}, '%')
+			</if>
+			<if test="nameFuzzy != null  and nameFuzzy != ''">
+				 and  `name` like concat('%', #{nameFuzzy}, '%')
+			</if>
+			<if test="avatarFuzzy != null  and avatarFuzzy != ''">
+				 and  `avatar` like concat('%', #{avatarFuzzy}, '%')
+			</if>
+			<if test="memosFuzzy != null  and memosFuzzy != ''">
+				 and  `memos` like concat('%', #{memosFuzzy}, '%')
+			</if>
+	 </where>
+	</sql>
+
+	<!-- 查询集合-->
+	<select id="selectList" resultMap="base_result_map" >
+		 SELECT <include refid="base_column_list" /> FROM `user` <include refid="query_condition" />
+		 <if test="orderBy!=null">
+			 order by ${orderBy}
+		 </if>
+		 <if test="page!=null">
+			 limit #{page.start},#{page.end}
+		 </if>
+	</select>
+
+	<!-- 查询数量-->
+	<select id="selectCount" resultType="java.lang.Integer" >
+		 SELECT count(1) FROM `user` <include refid="query_condition" />
+	</select>
+
+	<!-- 插入 （匹配有值的字段）-->
+	<insert id="insert" parameterType="com.ryx.serviceinterface.pojo.User">
+		<selectKey keyProperty="id" resultType="Integer" order="AFTER">
+			SELECT LAST_INSERT_ID()
+		</selectKey>
+		 INSERT INTO `user`
+		 <trim prefix="(" suffix=")" suffixOverrides="," >
+			<if test="loginName != null">
+				 `loginName`,
+			</if>
+			<if test="name != null">
+				 `name`,
+			</if>
+			<if test="avatar != null">
+				 `avatar`,
+			</if>
+			<if test="memos != null">
+				 `memos`,
+			</if>
+		 </trim>
+		 <trim prefix="values (" suffix=")" suffixOverrides="," >
+			<if test="loginName!=null">
+				 #{loginName},
+			</if>
+			<if test="name!=null">
+				 #{name},
+			</if>
+			<if test="avatar!=null">
+				 #{avatar},
+			</if>
+			<if test="memos!=null">
+				 #{memos},
+			</if>
+		 </trim>
+	</insert>
+
+	<!-- 插入 （根据表名称插入）-->
+	<insert id="insertWidthTableName" parameterType="com.ryx.serviceinterface.pojo.User">
+		<selectKey keyProperty="bean.id" resultType="Integer" order="AFTER">
+			SELECT LAST_INSERT_ID()
+		</selectKey>
+		 INSERT INTO `${tableName}`(`loginName`,`name`,`avatar`,`memos`)values(
+			 #{bean.loginName},#{bean.name},#{bean.avatar},#{bean.memos})
+		ON DUPLICATE KEY UPDATE 
+		`loginName` = values(`loginName`),`name` = values(`name`),`avatar` = values(`avatar`),`memos` = values(`memos`)
+	</insert>
+
+	<!-- 添加 （批量插入）-->
+		<insert id="insertBatch" parameterType="com.ryx.serviceinterface.pojo.User">
+		 INSERT INTO `user`(`loginName`,`name`,`avatar`,`memos`)values
+			 <foreach collection="list" item="item" separator=",">
+			 (
+			 #{item.loginName},#{item.name},#{item.avatar},#{item.memos}
+			 )
+			 </foreach>
+		ON DUPLICATE KEY UPDATE 
+		`loginName` = values(`loginName`),`name` = values(`name`),`avatar` = values(`avatar`),`memos` = values(`memos`)
+		</insert>
+
+	<!-- 根据PrimaryKey修 改-->
+	<update id="updateByPrimaryKey" parameterType="com.ryx.serviceinterface.pojo.User">
+		 UPDATE `user`
+ 		 <set> 
+			<if test="bean.loginName != null">
+				 `loginName` = #{bean.loginName},
+			</if>
+			<if test="bean.name != null">
+				 `name` = #{bean.name},
+			</if>
+			<if test="bean.avatar != null">
+				 `avatar` = #{bean.avatar},
+			</if>
+			<if test="bean.memos != null">
+				 `memos` = #{bean.memos},
+			</if>
+ 		 </set>
+ 		 where `id`=#{id}
+	</update>
+
+	<!-- 根据PrimaryKey删除-->
+	<delete id="deleteByPrimaryKey">
+		delete from `user` where `id`=#{id}
+	</delete>
+
+	<!-- 根据PrimaryKey获取对象-->
+	<select id="selectByPrimaryKey" resultMap="base_result_map" >
+		select <include refid="base_column_list" /> from `user` where `id`=#{id}
+	</select>
+
+</mapper>

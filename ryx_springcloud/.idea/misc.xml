@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SsmWeb" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/service-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/service-prodect/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/SsmWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/fescar-config/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../fescar-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../fescar-demo/server-a/pom.xml" />
+        <option value="$PROJECT_DIR$/../fescar-demo/server-b/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/common/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/config/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/core/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/dubbo-alibaba/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/rm/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/server/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/tcc/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/test/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-0.4.2/tm/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

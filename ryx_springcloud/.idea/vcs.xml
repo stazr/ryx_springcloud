@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/SsmWeb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/parent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/service-consumer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/service-discovery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/service-interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/service-prodect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/service-user" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zuul-server" vcs="Git" />
+  </component>
+</project>

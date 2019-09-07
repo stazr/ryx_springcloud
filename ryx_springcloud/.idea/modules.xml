@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/EasyJava/EasyJava.iml" filepath="$USER_HOME$/EasyJava/EasyJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SsmWeb/SsmWeb.iml" filepath="$PROJECT_DIR$/SsmWeb/SsmWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consumer/service-consumer.iml" filepath="$PROJECT_DIR$/service-consumer/service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-discovery/service-discovery.iml" filepath="$PROJECT_DIR$/service-discovery/service-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-interface/service-interface.iml" filepath="$PROJECT_DIR$/service-interface/service-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-prodect/service-prodect.iml" filepath="$PROJECT_DIR$/service-prodect/service-prodect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-user/service-user.iml" filepath="$PROJECT_DIR$/service-user/service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
+    </modules>
+  </component>
+</project>
