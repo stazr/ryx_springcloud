@@ -1,5 +1,6 @@
 package com.ryx.fescarconfig.config;
 
+
 import com.alibaba.fescar.core.context.RootContext;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -13,6 +14,7 @@ import java.io.IOException;
 
 @Slf4j
 public class FescarRMRequestFilter extends OncePerRequestFilter {
+
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
@@ -36,5 +38,4 @@ public class FescarRMRequestFilter extends OncePerRequestFilter {
             }
         }
     }
-
 }
