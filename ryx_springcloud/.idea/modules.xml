@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$USER_HOME$/EasyJava/EasyJava.iml" filepath="$USER_HOME$/EasyJava/EasyJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/SsmWeb/SsmWeb.iml" filepath="$PROJECT_DIR$/SsmWeb/SsmWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fescar-config/fescar-config.iml" filepath="$PROJECT_DIR$/fescar-config/fescar-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-consumer/service-consumer.iml" filepath="$PROJECT_DIR$/service-consumer/service-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-discovery/service-discovery.iml" filepath="$PROJECT_DIR$/service-discovery/service-discovery.iml" />

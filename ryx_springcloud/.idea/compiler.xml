@@ -20,7 +20,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="fescar-all" target="1.8" />
       <module name="fescar-common" target="1.8" />
-      <module name="fescar-config" target="1.8" />
+      <module name="fescar-config" target="1.5" />
       <module name="fescar-config (1) (com.alibaba.fescar)" target="1.8" />
       <module name="fescar-config (1) (com.hand)" target="1.8" />
       <module name="fescar-core" target="1.8" />

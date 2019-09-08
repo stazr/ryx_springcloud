@@ -44,7 +44,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fescar-config/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-491" />
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -173,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,8 +211,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -551,6 +560,7 @@
       <workItem from="1567820831518" duration="351000" />
       <workItem from="1567821201413" duration="2491000" />
       <workItem from="1567867057457" duration="125000" />
+      <workItem from="1567954331840" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1561774679358</created>
@@ -612,7 +622,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168169000" />
+    <option name="totallyTimeSpent" value="168842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1107" extended-state="0" />
@@ -636,17 +646,16 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.29392973" weight="0.4940594" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.36732674" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.29392973" weight="0.38217822" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.51757187" visible="true" weight="0.34257427" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23003195" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.51757187" weight="0.3419227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23216188" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -658,9 +667,10 @@
       <window_info anchor="right" id="Key Promoter X" order="5" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3567889" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="7" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
     </layout>
   </component>
@@ -722,7 +732,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seata-0.4.2/server/src/main/java/com/alibaba/fescar/server/coordinator/Core.java" />
     <entry file="file://$PROJECT_DIR$/service-prodect/src/main/java/com/ryx/serviceprodect/ServiceProdectApplication.java" />
     <entry file="file://$PROJECT_DIR$/../fescar-demo/fescar-config/pom.xml" />
     <entry file="file://$PROJECT_DIR$/../fescar-demo/pom.xml" />
@@ -796,11 +805,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml" />
     <entry file="file://$PROJECT_DIR$/service-prodect/pom.xml" />
     <entry file="file://$PROJECT_DIR$/service-discovery/pom.xml" />
     <entry file="file://$PROJECT_DIR$/parent/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/fescar-config/pom.xml" />
     <entry file="file://$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarRMRequestFilter.java" />
     <entry file="file://$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarRestInterceptor.java" />
     <entry file="file://$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarAutoConfiguration.java" />
@@ -812,11 +819,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
           <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fescar-config/src/main/java/com/ryx/fescarconfig/FescarConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fescar-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-491" />
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
