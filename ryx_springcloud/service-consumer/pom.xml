@@ -52,6 +52,11 @@
             <artifactId>fescar-spring</artifactId>
             <version>0.4.2</version>
         </dependency>
+        <dependency>
+            <groupId>com.ryx</groupId>
+            <artifactId>service-interface</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
